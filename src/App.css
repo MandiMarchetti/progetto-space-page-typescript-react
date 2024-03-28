@@ -13,9 +13,8 @@
   padding-top: 30px;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
-
-body {
-  background-image: url("../public/ilustracion-vector-blanco-negro-astronauta_801978-9592.avif");
+img {
+  opacity: 0.5;
 }

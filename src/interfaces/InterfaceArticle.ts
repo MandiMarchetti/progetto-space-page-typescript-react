@@ -1,4 +1,11 @@
-export interface InterfaceArticle {
+export interface InterfaceObject {
+  count: number,
+  next: string,
+  previous: null,
+  results: InterfaceArticle []
+ }
+
+ export interface InterfaceArticle {
   id:           number;
     title:        string;
     url:          string;

@@ -10,13 +10,14 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavBarArticle />
+        <img src="/ilustracion-vector-blanco-negro-astronauta_801978-9592.avif" alt="image" />
         <header className="App-header">
           <Routes>
             <Route
               path="/"
               element={
                 <>
-                  <h1>Welcome to Space Today</h1>
+                  <h1>Welcome to SPACE TODAY</h1>
                 </>
               }
             />
